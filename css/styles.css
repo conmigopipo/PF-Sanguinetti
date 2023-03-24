@@ -135,10 +135,12 @@ header{
     height: 400px;
     width: 100%;
     margin-bottom: 10px;
+    
  }
  .imagenindex img{
      object-fit: cover;
      width: 100%;  
+     border-radius: 5%;
  }
 /*footer*/
 .footer{
