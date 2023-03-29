@@ -1,0 +1,43 @@
+.contenedorCarousel{
+    position: relative;
+    .carousel{ 
+        .carousel-control-next-icon, .carousel-control-prev-icon{
+            background-color:#5e452d;
+            border-radius: 5px;
+            position: relative;
+        }
+        .carousel-control-next-icon{
+            right: 5px;
+        }
+        .carousel-control-prev-icon{
+            left: 5px;
+        }        
+        .carousel-inner{
+            .carousel-item{
+                position: relative;
+                h6{
+                    position: absolute;
+                    transform: translate(-50%, -50%);
+                    left: 50%;
+                    top: 50%;
+                    font-size: 24px;
+                    color: rgb(0, 0, 0);
+                    text-shadow: 0.5px 0.5px 0.5px #634f08;
+                }
+            }
+        }
+    }
+    .tituloCarousel{
+        position: absolute;
+        z-index: 10;
+        top: 50px;
+        font-size: 28px;
+        color: rgb(255, 255, 255);
+        text-shadow: 2px 2px 1.5px #000000;
+        p{
+            font-size: 18px;
+        }
+    }
+}
+
+

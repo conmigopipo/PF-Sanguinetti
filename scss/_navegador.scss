@@ -1,0 +1,70 @@
+.navegador{
+    background-color: #582f0e;
+    padding: 5px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    ul{
+        list-style: none;
+        display: flex;
+        margin: 10px;
+        align-items: center;
+        li a{
+            display: block;
+            text-decoration: none;
+            color: rgb(255, 255, 255); 
+            font-size: 18px;
+            align-items: center;
+            margin: 10px;
+        }
+    }
+    .divLogoNav{
+        height: 70px;
+        width: 70px;
+        padding: 3px;   
+        .logoNav{
+            border-radius: 50%;
+            height: 100%;
+            width: 100%;        
+         }  
+    }
+    .fa-bars{
+        display: none;
+     }
+}
+ @media(max-width:768px) {
+    .navegador{ 
+        ul{
+        position: fixed;
+        background-color: #5e452d;
+        width: 250px;
+        height: 100vh;
+        flex-direction: column;
+        transition: 0.5s;
+        margin: 0;
+        padding:10px;
+        top: 0;
+        right: -400px;
+        z-index: 6;
+        &:hover{
+            right: 0;
+        }
+        }
+        li{
+            padding: 5px;
+            text-decoration: underline;
+        }
+        .fa-bars{
+            display: block;
+            align-self: center;
+            color:white;
+            font-size: 32px;
+            justify-content: end;
+            margin: 20px;
+            &:hover + ul{
+                right: 0;
+            }
+        }
+    
+    }
+}

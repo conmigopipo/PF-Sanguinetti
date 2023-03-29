@@ -1,0 +1,16 @@
+.footer{
+    background-color:#424d37 ;
+    ul{
+        display: flex;
+        padding: 10px;
+        margin: 10px;
+        list-style: none;
+        justify-content: space-around;
+        margin-bottom: 0;
+        li a{
+            text-decoration: none;
+            color: rgb(250, 250, 250);
+        }
+    }
+    
+}
