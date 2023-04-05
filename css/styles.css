@@ -3,16 +3,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Lato", sans-serif;
 }
 
 .container, .container-fluid, .row {
   margin: 0;
   padding: 0;
-}
-
-body {
-  font-family: "Lato", sans-serif;
 }
 
 body {
@@ -33,6 +28,7 @@ header {
   height: 80px;
   display: flex;
   justify-content: space-between;
+  font-family: "Lato", sans-serif;
 }
 .navegador ul {
   list-style: none;
@@ -96,7 +92,8 @@ header {
   }
 }
 .footer {
-  background-color: #424d37;
+  background-color: #414833;
+  font-family: "Lato", sans-serif;
 }
 .footer ul {
   display: flex;
@@ -117,6 +114,7 @@ header {
   margin: 5px;
   text-decoration: underline;
   padding: 10px;
+  font-family: "Lato", sans-serif;
 }
 
 .textoInicio {
@@ -125,6 +123,8 @@ header {
   width: 96%;
   padding: 15px;
   margin: 15px 2%;
+  font-family: "Lato", sans-serif;
+  color: black;
 }
 .textoInicio h3 {
   text-align: center;
@@ -152,16 +152,19 @@ header {
 .imagenIndex img {
   object-fit: cover;
   width: 100%;
-  border-radius: 5%;
+  border-radius: 10px;
 }
 
 .tarjetasTostado {
   margin-bottom: 20px;
   margin-top: 10px;
+  font-family: "Lato", sans-serif;
+  color: black;
 }
 
 .contenedorCarousel {
   position: relative;
+  padding: 10px;
 }
 .contenedorCarousel .carousel .carousel-control-next-icon, .contenedorCarousel .carousel .carousel-control-prev-icon {
   background-color: #5e452d;
@@ -205,7 +208,9 @@ header {
   border-style: solid;
   margin: 40px auto;
   display: grid;
+  font-family: "Lato", sans-serif;
   padding: 10px;
+  color: black;
   gap: 5px;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "compragranos compragranos" "nombre       apellido" "sexo         edad" "email        direccion" "mensaje      mensaje" "variedad     variedad" "terms        vaciar" "enviar       enviar";
@@ -299,6 +304,48 @@ header {
     grid-template-columns: 1fr;
     grid-template-areas: "compragranos" "nombre" "apellido" "sexo" "edad" "email" "direccion" "mensaje" "variedad" "terms" "vaciar" "enviar";
   }
+}
+.tarjetasCultivo {
+  height: 200px;
+  background-color: rgb(214, 209, 202);
+  padding: 10px;
+  padding-top: 20px;
+  font-family: "Lato", sans-serif;
+  color: black;
+}
+
+/*@mixin tarjetasmetodos {
+    background-color: $bg-color-header;
+    border-radius: 5px;
+}
+
+.tarjetasmetodos{
+    @include tarjetasmetodos(
+        background-color
+        border-radius
+    )
+} */
+.tarjetasMetodos {
+  background-color: rgb(150, 148, 134);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  color: black;
+}
+.tarjetasMetodos .imgMet1 {
+  overflow: hidden;
+  height: 200px;
+  margin-bottom: 10px;
+  object-fit: contain;
+}
+.tarjetasMetodos .imgMet1 img {
+  opacity: 70%;
+}
+.tarjetasMetodos .imgMet2 {
+  margin: 10px;
+  height: 500px;
+  object-fit: fill;
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=styles.css.map */

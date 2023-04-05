@@ -1,5 +1,6 @@
 .footer{
-    background-color:#424d37 ;
+    background-color:$bg-color-header;
+    font-family: $fuente;
     ul{
         display: flex;
         padding: 10px;

@@ -5,7 +5,9 @@
     border-style: solid;
     margin: 40px auto;
     display: grid;
+    font-family: $fuente;
     padding: 10px;
+    color: $txt-color;
     gap: 5px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "compragranos compragranos"
