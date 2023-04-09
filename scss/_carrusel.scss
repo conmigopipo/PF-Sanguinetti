@@ -8,10 +8,10 @@
             position: relative;
         }
         .carousel-control-next-icon{
-            right: 5px;
+            right: -10px;
         }
         .carousel-control-prev-icon{
-            left: 5px;
+            left: -10px;
         }        
         .carousel-inner{
             .carousel-item{
@@ -20,8 +20,8 @@
                     position: absolute;
                     transform: translate(-50%, -50%);
                     left: 50%;
-                    top: 50%;
-                    font-size: 24px;
+                    top: 80%;
+                    font-size: 20px;
                     color: rgb(0, 0, 0);
                     text-shadow: 0.5px 0.5px 0.5px #634f08;
                 }
@@ -31,12 +31,12 @@
     .tituloCarousel{
         position: absolute;
         z-index: 10;
-        top: 50px;
-        font-size: 28px;
+        top: 30px;
+        font-size: 24px;
         color: rgb(255, 255, 255);
         text-shadow: 2px 2px 1.5px #000000;
         p{
-            font-size: 18px;
+            font-size: 16px;
         }
     }
 }

@@ -115,6 +115,11 @@ header {
   text-decoration: underline;
   padding: 10px;
   font-family: "Lato", sans-serif;
+  text-shadow: 2px 2px 2px #CECECE;
+}
+
+main div h2 {
+  font-family: "Lato", sans-serif;
 }
 
 .textoInicio {
@@ -172,10 +177,10 @@ header {
   position: relative;
 }
 .contenedorCarousel .carousel .carousel-control-next-icon {
-  right: 5px;
+  right: -10px;
 }
 .contenedorCarousel .carousel .carousel-control-prev-icon {
-  left: 5px;
+  left: -10px;
 }
 .contenedorCarousel .carousel .carousel-inner .carousel-item {
   position: relative;
@@ -184,21 +189,21 @@ header {
   position: absolute;
   transform: translate(-50%, -50%);
   left: 50%;
-  top: 50%;
-  font-size: 24px;
+  top: 80%;
+  font-size: 20px;
   color: rgb(0, 0, 0);
   text-shadow: 0.5px 0.5px 0.5px #634f08;
 }
 .contenedorCarousel .tituloCarousel {
   position: absolute;
   z-index: 10;
-  top: 50px;
-  font-size: 28px;
+  top: 30px;
+  font-size: 24px;
   color: rgb(255, 255, 255);
   text-shadow: 2px 2px 1.5px #000000;
 }
 .contenedorCarousel .tituloCarousel p {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .formulario {
@@ -314,37 +319,35 @@ header {
   color: black;
 }
 
-/*@mixin tarjetasmetodos {
-    background-color: $bg-color-header;
-    border-radius: 5px;
-}
-
-.tarjetasmetodos{
-    @include tarjetasmetodos(
-        background-color
-        border-radius
-    )
-} */
-.tarjetasMetodos {
+.metodosIntro {
   background-color: rgb(150, 148, 134);
   border-radius: 5px;
   padding: 10px;
   margin: 10px;
   color: black;
 }
-.tarjetasMetodos .imgMet1 {
+.metodosIntro .imgMet1 {
   overflow: hidden;
   height: 200px;
   margin-bottom: 10px;
   object-fit: contain;
 }
-.tarjetasMetodos .imgMet1 img {
+.metodosIntro .imgMet1 img {
   opacity: 70%;
 }
-.tarjetasMetodos .imgMet2 {
+
+.tarjetasMetodos {
+  background-color: rgb(150, 148, 134);
+  border-radius: 5px;
+  padding: 10px;
   margin: 10px;
-  height: 500px;
-  object-fit: fill;
+  color: black;
+  height: 740px;
+}
+.tarjetasMetodos .imgMet2, .tarjetasMetodos .imgMet3, .tarjetasMetodos .imgMet4 {
+  margin: 10px;
+  height: 340px;
+  object-fit: cover;
   overflow: hidden;
 }
 
