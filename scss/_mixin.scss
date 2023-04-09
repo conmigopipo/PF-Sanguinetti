@@ -1,0 +1,7 @@
+@mixin tarjetasMetPrincipios ($borde, $padding, $margin){
+    background-color:rgb(150, 148, 134);
+    color: $txt-color;
+    border-radius: $borde;
+    padding: $padding;
+    margin: $margin;
+}

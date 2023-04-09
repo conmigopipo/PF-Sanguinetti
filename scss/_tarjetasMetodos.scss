@@ -1,9 +1,6 @@
+
 .metodosIntro{
-    background-color: rgb(150, 148, 134);
-    border-radius: 5px;  
-    padding: 10px;   
-    margin: 10px;
-    color: $txt-color;
+    @include tarjetasMetPrincipios ( 3px, 10px, 15px);
     .imgMet1{
         overflow: hidden;
         height: 200px;
@@ -14,13 +11,8 @@
         }
     }
 }
-
 .tarjetasMetodos{
-    background-color: rgb(150, 148, 134);
-    border-radius: 5px;  
-    padding: 10px;   
-    margin: 10px;
-    color: $txt-color;
+    @include tarjetasMetPrincipios ( 5px, 15px, 10px);
     height: 740px;
     .imgMet2, .imgMet3, .imgMet4{
         margin: 10px;

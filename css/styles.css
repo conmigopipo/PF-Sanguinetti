@@ -321,10 +321,10 @@ main div h2 {
 
 .metodosIntro {
   background-color: rgb(150, 148, 134);
-  border-radius: 5px;
-  padding: 10px;
-  margin: 10px;
   color: black;
+  border-radius: 3px;
+  padding: 10px;
+  margin: 15px;
 }
 .metodosIntro .imgMet1 {
   overflow: hidden;
@@ -338,10 +338,10 @@ main div h2 {
 
 .tarjetasMetodos {
   background-color: rgb(150, 148, 134);
-  border-radius: 5px;
-  padding: 10px;
-  margin: 10px;
   color: black;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px;
   height: 740px;
 }
 .tarjetasMetodos .imgMet2, .tarjetasMetodos .imgMet3, .tarjetasMetodos .imgMet4 {
