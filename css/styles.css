@@ -161,10 +161,18 @@ main div h2 {
 }
 
 .tarjetasTostado {
-  margin-bottom: 20px;
-  margin-top: 10px;
   font-family: "Lato", sans-serif;
   color: black;
+  background-color: rgb(150, 148, 134);
+  color: black;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px;
+  height: 300px;
+}
+.tarjetasTostado .imgTostado {
+  object-fit: cover;
+  overflow: hidden;
 }
 
 .contenedorCarousel {
@@ -280,7 +288,7 @@ main div h2 {
   flex-wrap: wrap;
 }
 .formulario input {
-  background-color: rgb(119, 106, 60);
+  background-color: rgb(156, 153, 142);
   border: solid;
   border-radius: 5px;
   font-size: 16px;
@@ -311,7 +319,7 @@ main div h2 {
   }
 }
 .tarjetasCultivo {
-  height: 200px;
+  height: 150px;
   background-color: rgb(214, 209, 202);
   padding: 10px;
   padding-top: 20px;
@@ -319,6 +327,11 @@ main div h2 {
   color: black;
 }
 
+@media (max-width: 900px) {
+  .tarjetasCultivo {
+    height: 200px;
+  }
+}
 .metodosIntro {
   background-color: rgb(150, 148, 134);
   color: black;

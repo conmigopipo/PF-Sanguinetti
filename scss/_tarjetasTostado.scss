@@ -1,6 +1,10 @@
 .tarjetasTostado{
-    margin-bottom: 20px;
-    margin-top: 10px;
     font-family: $fuente;
     color: $txt-color;
+    @include tarjetasMetPrincipios ( 5px, 15px, 10px);
+    height: 300px;
+    .imgTostado{
+        object-fit: cover;
+        overflow: hidden;
+    }
 } 
