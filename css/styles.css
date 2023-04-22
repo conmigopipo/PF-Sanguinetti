@@ -124,7 +124,7 @@ main div h2 {
 
 .textoInicio {
   border-radius: 5px;
-  background-color: #936639;
+  background-color: #886b4e;
   width: 96%;
   padding: 15px;
   margin: 15px 2%;
@@ -160,6 +160,34 @@ main div h2 {
   border-radius: 10px;
 }
 
+.tarjetasIndex .tarjetaIndex {
+  font-family: "Lato", sans-serif;
+  color: black;
+  background-color: rgb(150, 148, 134);
+  color: black;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 5px;
+}
+.tarjetasIndex .tarjetaIndex div {
+  width: 90%;
+  position: relative;
+}
+.tarjetasIndex .tarjetaIndex div button {
+  width: 90px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 5px;
+  background-color: #582f0e;
+  border-radius: 10px;
+  padding: 2px;
+}
+.tarjetasIndex .tarjetaIndex div button a {
+  text-decoration: none;
+  color: white;
+}
+
 .tarjetasTostado {
   font-family: "Lato", sans-serif;
   color: black;
@@ -178,6 +206,7 @@ main div h2 {
 .contenedorCarousel {
   position: relative;
   padding: 10px;
+  border-radius: 15px;
 }
 .contenedorCarousel .carousel .carousel-control-next-icon, .contenedorCarousel .carousel .carousel-control-prev-icon {
   background-color: #5e452d;
@@ -325,6 +354,8 @@ main div h2 {
   padding-top: 20px;
   font-family: "Lato", sans-serif;
   color: black;
+  background-color: rgb(150, 148, 134);
+  border-radius: 10px;
 }
 
 @media (max-width: 900px) {
